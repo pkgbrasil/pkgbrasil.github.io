@@ -1,0 +1,4 @@
+* text eol=lf
+*.bin binary
+core.js whitespace=-blank-at-eof
+mem.js whitespace=-blank-at-eof

@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-BR" manifest="cache.appcache">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>PKG Brasil // FW 14.00</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- A execução deve começar nesta página. jb.js valida o referrer antes de iniciar. -->
+  <div class="bg-orb bg-orb-1"></div>
+  <div class="bg-orb bg-orb-2"></div>
+  <div class="bg-grid"></div>
+
+  <main class="stage">
+    <div class="confirm-card">
+      <div class="confirm-kicker">Confirmar Versão</div>
+      <h1 class="confirm-title">FW 14.00</h1>
+      <p class="confirm-sub">Verifique o firmware do seu PS4 antes de continuar.</p>
+
+      <div id="detected" class="detected-fw" role="status" aria-live="polite">
+        <span class="dot" aria-hidden="true"></span>
+        <span class="lbl">Detectado:</span>
+        <span class="val" id="detected-val">verificando…</span>
+      </div>
+
+      <form id="pick" class="pick">
+        <fieldset class="payload-options">
+          <legend>Escolha o payload</legend>
+          <label class="payload-option">
+            <input type="radio" name="payload" value="goldhen" checked>
+            <span>GoldHEN</span>
+          </label>
+          <label class="payload-option">
+            <input type="radio" name="payload" value="hen">
+            <span>PS4-HEN</span>
+          </label>
+        </fieldset>
+
+        <label class="auto-option">
+          <input type="checkbox" id="auto">
+          <span>Iniciar automaticamente em 5 segundos</span>
+        </label>
+
+        <button type="submit" class="confirm-btn">Iniciar Desbloqueio</button>
+        <p id="count" class="status" aria-live="polite"></p>
+        <p id="cache" class="status" aria-live="polite"></p>
+      </form>
+
+      <p class="confirm-note">Não desligue o console durante o processo.</p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    PKG Brasil · Desbloqueio PS4 · Exploit por
+    <a href="https://github.com/well0nez/afterglow-web">well0nez/m0zz</a>
+    · <a href="https://github.com/pkgbrasil/pkgbrasil.github.io/tree/main/1400">Código e licenças</a>
+  </footer>
+
+  <script src="launch.js"></script>
+</body>
+</html>

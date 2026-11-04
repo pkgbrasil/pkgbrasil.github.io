@@ -5,6 +5,13 @@ const us = new UpdateSystem();
 // Dados embutidos — exibidos imediatamente, independente de qualquer fetch
 const STATIC_GROUPS = [
   {
+    label: '14.00',
+    exploit: 'Afterglow WebKit',
+    goldhen: 'incluído no Afterglow',
+    entrypoint: '1400/index.html',
+    description: 'Afterglow WebKit com GoldHEN ou PS4-HEN.'
+  },
+  {
     label: '13.02 – 13.52',
     exploit: 'SlopKit + GoldHEN',
     goldhen: '2.4b18.12',

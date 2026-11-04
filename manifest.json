@@ -298,6 +298,129 @@
           "size": 25928
         }
       ]
+    },
+    {
+      "version": "afterglow-acf25a8",
+      "date": "2026-11-04",
+      "changelog": "Afterglow WebKit para PS4 FW 14.00 com GoldHEN e PS4-HEN. Fonte: well0nez/afterglow-web @ acf25a831725f0d44fcb64725d4ce35acbba8f9d.",
+      "firmwares": [
+        "14.00"
+      ],
+      "source": "https://github.com/well0nez/afterglow-web/commit/acf25a831725f0d44fcb64725d4ce35acbba8f9d",
+      "files": [
+        {
+          "name": "1400/index.html",
+          "description": "Afterglow FW 14.00",
+          "firmware": "14.00",
+          "url": "https://raw.githubusercontent.com/pkgbrasil/pkgbrasil.github.io/main/1400/index.html",
+          "sha256": "f2cbc159543e6bf24c079484ad336c1b2d9b6dd18e93eef2a5b65f6861fe9d73",
+          "size": 2244
+        },
+        {
+          "name": "1400/jb.html",
+          "description": "Afterglow FW 14.00",
+          "firmware": "14.00",
+          "url": "https://raw.githubusercontent.com/pkgbrasil/pkgbrasil.github.io/main/1400/jb.html",
+          "sha256": "6f8963ba424329a9922e1a4636d2f061da1a4f040d7ba2fb69b32d461fbeb30c",
+          "size": 5375
+        },
+        {
+          "name": "1400/style.css",
+          "description": "Afterglow FW 14.00",
+          "firmware": "14.00",
+          "url": "https://raw.githubusercontent.com/pkgbrasil/pkgbrasil.github.io/main/1400/style.css",
+          "sha256": "4e2a73f1b04fdf9d4116b21713e028cff0a2e62b2432cc13636aff51c864490e",
+          "size": 5682
+        },
+        {
+          "name": "1400/launch.js",
+          "description": "Afterglow FW 14.00",
+          "firmware": "14.00",
+          "url": "https://raw.githubusercontent.com/pkgbrasil/pkgbrasil.github.io/main/1400/launch.js",
+          "sha256": "d60b9af8816b239aaafe03ebbfb8b6fa88910a504da2d6e8a16a932a38e8a8bf",
+          "size": 6173
+        },
+        {
+          "name": "1400/jb.js",
+          "description": "Afterglow FW 14.00",
+          "firmware": "14.00",
+          "url": "https://raw.githubusercontent.com/pkgbrasil/pkgbrasil.github.io/main/1400/jb.js",
+          "sha256": "c0e5d287cfb3e2a3720bea96c960a7244e910be08c6e3181c8e1fe6804941568",
+          "size": 27675
+        },
+        {
+          "name": "1400/core.js",
+          "description": "Afterglow FW 14.00",
+          "firmware": "14.00",
+          "url": "https://raw.githubusercontent.com/pkgbrasil/pkgbrasil.github.io/main/1400/core.js",
+          "sha256": "34797091b327536e9118abd167215a7d669a62f23fc0f8c0aebb5c6373c24fa4",
+          "size": 46526
+        },
+        {
+          "name": "1400/mem.js",
+          "description": "Afterglow FW 14.00",
+          "firmware": "14.00",
+          "url": "https://raw.githubusercontent.com/pkgbrasil/pkgbrasil.github.io/main/1400/mem.js",
+          "sha256": "71f700963b0fd2da1fd877122561a343507eb71050451a376daaeaf4f71f1da0",
+          "size": 26703
+        },
+        {
+          "name": "1400/int64.js",
+          "description": "Afterglow FW 14.00",
+          "firmware": "14.00",
+          "url": "https://raw.githubusercontent.com/pkgbrasil/pkgbrasil.github.io/main/1400/int64.js",
+          "sha256": "611da6a52da5ecf970a3718ab2a4561d3992c655c55342d066d12a9a50554f34",
+          "size": 2548
+        },
+        {
+          "name": "1400/ps4_offsets.js",
+          "description": "Afterglow FW 14.00",
+          "firmware": "14.00",
+          "url": "https://raw.githubusercontent.com/pkgbrasil/pkgbrasil.github.io/main/1400/ps4_offsets.js",
+          "sha256": "2bc41955c506c71d6f297a44d009177db1ebc962f05f6543932804f4fa682201",
+          "size": 17133
+        },
+        {
+          "name": "1400/afterglow.js",
+          "description": "Afterglow FW 14.00",
+          "firmware": "14.00",
+          "url": "https://raw.githubusercontent.com/pkgbrasil/pkgbrasil.github.io/main/1400/afterglow.js",
+          "sha256": "37d46dfaa44c97af16cfabd95c320eb47b1095c31c9e2e9d2f288d5f18681e79",
+          "size": 88197
+        },
+        {
+          "name": "1400/patchset-1400.bin",
+          "description": "Afterglow FW 14.00",
+          "firmware": "14.00",
+          "url": "https://raw.githubusercontent.com/pkgbrasil/pkgbrasil.github.io/main/1400/patchset-1400.bin",
+          "sha256": "615f275b96831cc04173757db39e93f0d27b52888976af2a6444604aa8ac5dbf",
+          "size": 641
+        },
+        {
+          "name": "1400/patchset-1352.bin",
+          "description": "Afterglow FW 14.00",
+          "firmware": "14.00",
+          "url": "https://raw.githubusercontent.com/pkgbrasil/pkgbrasil.github.io/main/1400/patchset-1352.bin",
+          "sha256": "adfb9771904f71cd1f5a82cbded8ac46c7ffeb3df974579535cf711904ac347e",
+          "size": 632
+        },
+        {
+          "name": "1400/hen.bin",
+          "description": "Afterglow FW 14.00",
+          "firmware": "14.00",
+          "url": "https://raw.githubusercontent.com/pkgbrasil/pkgbrasil.github.io/main/1400/hen.bin",
+          "sha256": "364e5f6fd59e8a7afc207c70e27b840699f8173f3ae0241b63bc6dec6b394bfe",
+          "size": 500448
+        },
+        {
+          "name": "1400/goldhen.bin",
+          "description": "Afterglow FW 14.00",
+          "firmware": "14.00",
+          "url": "https://raw.githubusercontent.com/pkgbrasil/pkgbrasil.github.io/main/1400/goldhen.bin",
+          "sha256": "39452f5e1c305ac9efcb4745eef7958b4db8c6d85299529f08700970b009ea4d",
+          "size": 297496
+        }
+      ]
     }
   ],
   "firmwareCompatibility": [
@@ -332,9 +455,19 @@
     { "firmware": "13.00", "supported": true,  "version": "gh-ea85cfe", "notes": "SlopKit WebKit (1300/latest/)" },
     { "firmware": "13.02", "supported": true,  "version": "gh-ea85cfe", "notes": "SlopKit + GoldHEN (1352/)" },
     { "firmware": "13.50", "supported": true,  "version": "gh-ea85cfe", "notes": "SlopKit + GoldHEN (1352/)" },
-    { "firmware": "13.52", "supported": true,  "version": "gh-ea85cfe", "notes": "SlopKit + GoldHEN (1352/)" }
+    { "firmware": "13.52", "supported": true,  "version": "gh-ea85cfe", "notes": "SlopKit + GoldHEN (1352/)" },
+    { "firmware": "14.00", "supported": true,  "version": "afterglow-acf25a8", "notes": "Afterglow WebKit + GoldHEN ou PS4-HEN (1400/)" }
   ],
   "exploitGroups": [
+    {
+      "id": "1400",
+      "label": "14.00",
+      "firmwares": ["14.00"],
+      "exploit": "Afterglow WebKit",
+      "goldhen": "incluído no Afterglow",
+      "entrypoint": "1400/index.html",
+      "description": "Afterglow WebKit com GoldHEN ou PS4-HEN."
+    },
     {
       "id": "1352",
       "label": "13.02 – 13.52",
@@ -390,6 +523,11 @@
       "description": "Exploit legado para FW 5.05."
     }
   ],
+  "_afterglow": {
+    "repo": "well0nez/afterglow-web",
+    "commit": "acf25a831725f0d44fcb64725d4ce35acbba8f9d",
+    "syncedAt": "2026-11-04"
+  },
   "_upstream": {
     "repo": "psx8/psx8.github.io",
     "commit": "ea85cfe4434ddc38943a9cb12e255a2b2a64a190",
